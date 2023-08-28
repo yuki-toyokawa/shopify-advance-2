@@ -1,0 +1,71 @@
+// 色
+$color-main: #75331F; // ベース色
+$color-active: #C5C86A; // アクティブ色
+$color-background-base: #fff; // 背景色白色
+$color-background-color: #F2F0EA; // 背景色ベージュ
+$color-text-base: #333; // テキスト色
+$hover-opacity: 0.7; // 透過度
+
+// レイアウト幅
+$layout-width-canvas: 1400px;
+$layout-width-inner: 1124px;
+
+// ブレークポイント
+$breakpoints: ("sm": "(max-width: 359px)",
+  "w409": "(max-width: 408px)",
+  "sp": "(max-width: 749px)",
+  "w846": "(max-width: 845px)",
+  "tab-only": "(min-width: 768px) and (max-width: 1023px)",
+  "tab": "(max-width: 989px)",
+  "w1100": "(max-width: 1099px)",
+  "w1200": "(max-width: 1199px)",
+  "w1300": "(max-width: 1299px)",
+  "w1400": "(max-width: 1399px)",
+  "humburger": "(max-width: 1249px)",
+  "pc": "(min-width: 1024px) and (max-width: 1919px)",
+  "pc2": "(min-width: 1596px) and (max-width: 1919px)",
+  "xl": "(min-width: 1401px)",
+  "w1600": "(min-width: 1601px)",
+);
+
+// 階層
+$layer: (modal: 100,
+  // モダール
+  drawer: 40,
+  // ドロワー
+  floating: 30,
+  // フローティングアイテム
+  header: 20,
+  // ヘッダー
+  footer: 10,
+  // 画像
+  image: 8,
+  // ライン
+  line: 5,
+  // フッター
+  default: 1,
+);
+
+// 余白
+$padding-tab: 40px;
+$padding-sp: 15px;
+
+// フォント
+$font-family-default: 'Noto Sans JP',
+sans-serif; // 標準フォント
+$font-family-japanease: 'Noto Sans JP',
+sans-serif; // 日本語フォント
+$font-family-english: 'Montserrat',
+sans-serif; // 英語フォント
+$font-family-base: $font-family-japanease;
+$font-size-base: 1.6rem;
+$font-weight-base: 400;
+$line-height-base: 2.25;
+$letter-spacing-base: .03em;
+
+// メディアクエリー
+@mixin mq($breakpoint: sp) {
+  @media #{map-get($breakpoints, $breakpoint)} {
+    @content;
+  }
+}

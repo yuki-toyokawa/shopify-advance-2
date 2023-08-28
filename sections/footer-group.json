@@ -1,0 +1,46 @@
+{
+  "name": "t:sections.footer.name",
+  "type": "footer",
+  "sections": {
+    "footer": {
+      "type": "footer",
+      "blocks": {
+        "30c031ab-61a2-4858-9a06-0830428b5623": {
+          "type": "link_list",
+          "settings": {
+            "heading": "",
+            "menu": "footer"
+          }
+        },
+        "c13759a1-e03e-410c-a348-75ab45e677f2": {
+          "type": "link_list",
+          "settings": {
+            "heading": "",
+            "menu": "link-list"
+          }
+        }
+      },
+      "block_order": [
+        "30c031ab-61a2-4858-9a06-0830428b5623",
+        "c13759a1-e03e-410c-a348-75ab45e677f2"
+      ],
+      "settings": {
+        "color_scheme": "background-1",
+        "newsletter_enable": false,
+        "newsletter_heading": "Subscribe to our emails",
+        "enable_follow_on_shop": true,
+        "show_social": true,
+        "enable_country_selector": true,
+        "enable_language_selector": true,
+        "payment_enable": true,
+        "show_policy": false,
+        "margin_top": 36,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "footer"
+  ]
+}

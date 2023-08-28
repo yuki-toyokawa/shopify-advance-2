@@ -1,0 +1,55 @@
+{% assign blog = section.settings.news_blog %}
+
+<div class="top-news">
+  <div class="top-news__inner">
+    <h2 class="section-title">{{ section.settings.title }}</h2>
+    <div class="news__items">
+      {% for article in blog.articles limit: 3 %}
+        <article class="news__item">
+          <a href="{{ article.url }}">
+            <div class="info">
+              <div class="info__meta">
+                <time class="info__published" datetime="{{ article.published_at }}">{{ article.published_at | date: "%Y.%m.%d" }}</time>
+              </div>
+              <div class="info__title">{{ article.title }}</div>
+            </div>
+          </a>
+        </article>
+      {% endfor %}
+    </div>
+    <!-- /.news__items -->
+    <div class="btn">
+      <a href="{{ blog.url }}" class="button">More</a>
+    </div>
+  </div>
+  <!-- /.inner -->
+</div>
+<!-- /.top-news -->
+
+
+{% schema %}
+  {
+    "name": "ニュース",
+    "tag": "section",
+    "class": "section",
+    "settings": [
+      {
+        "type": "text",
+        "id": "title",
+        "label": "タイトル",
+        "default": "お知らせ"
+      }, {
+        "type": "blog",
+        "id": "news_blog",
+        "label": "ブログ",
+        "info": "ニュースのブログを選んでください"
+      }
+    ],
+    "blocks": [],
+    "presets": [
+      {
+        "name": "ニュース"
+      }
+    ]
+  }
+{% endschema %}

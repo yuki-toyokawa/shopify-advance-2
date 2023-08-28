@@ -1,0 +1,106 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "d7863783-6085-4551-a6b0-22aa24df6c85": {
+      "type": "rich-text",
+      "blocks": {
+        "template--20321217773879__d7863783-6085-4551-a6b0-22aa24df6c85-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "こだわり",
+            "heading_size": "h1"
+          }
+        },
+        "template--20321217773879__d7863783-6085-4551-a6b0-22aa24df6c85-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>当店はこだわりのコーヒーを一杯一杯丁寧にご提供しています。<br\/>居心地の良い空間と心温まるサービスで、お客様をお迎えします。<br\/>コーヒーとおもに有意義で特別なひとときをお過ごしください。<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--20321217773879__d7863783-6085-4551-a6b0-22aa24df6c85-heading-1",
+        "template--20321217773879__d7863783-6085-4551-a6b0-22aa24df6c85-text-1"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "f3a27e46-61bf-4820-9f9a-501177e392f1": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--20321217773879__f3a27e46-61bf-4820-9f9a-501177e392f1-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>当店では、コーヒー豆の品質を最大限に引き出すために、焙煎機にもこだわっています。私たちの焙煎機は最新の技術を駆使し、温度と時間を精密にコントロールすることで、豆の風味や香りを最適化しています。<br\/><br\/>私たちは焙煎機による焙煎が、お客様に最高のコーヒー体験を提供する重要な要素であると信じています。そのため、常に最新の焙煎技術や情報に目を光らせ、より良いコーヒーを追求する努力を惜しまず続けています。ぜひ、私たちの焙煎技術による一杯をお楽しみください。<\/p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "template--20321217773879__f3a27e46-61bf-4820-9f9a-501177e392f1-text-1"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/feature01.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "3f814710-dae9-4a35-a8bb-12d495bc8dd0": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--20321217773879__3f814710-dae9-4a35-a8bb-12d495bc8dd0-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>当店では、コーヒー豆に対するこだわりを持っています。品質の高い豆を厳選し、持続可能な栽培方法で育てられたものにこだわり、直接生産者との関係を築くことを大切にしています。<br\/><br\/>私たちは世界各地からのコーヒー豆を取り扱い、産地や品種ごとの個性を大切にしています。それぞれの豆の特徴や風味を最大限に引き出すために、焙煎技術や淹れ方にもこだわり抜いています。<br\/><br\/>私たちのこだわりのコーヒー豆を使った一杯は、豊かな味わいと共に、生産者への支援や持続可能性への貢献も含まれています。ぜひ、特別なひとときをお楽しみください。<\/p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "template--20321217773879__3f814710-dae9-4a35-a8bb-12d495bc8dd0-text-1"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/feature02.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "main",
+    "d7863783-6085-4551-a6b0-22aa24df6c85",
+    "f3a27e46-61bf-4820-9f9a-501177e392f1",
+    "3f814710-dae9-4a35-a8bb-12d495bc8dd0"
+  ]
+}

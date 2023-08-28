@@ -1,0 +1,62 @@
+<!-- Slider main container -->
+<div class="swiper">
+  <!-- Additional required wrapper -->
+  <div class="swiper-wrapper">
+    <!-- Slides -->
+    {%- for block in section.blocks -%}
+    <div class="swiper-slide">
+      <picture>
+        <source media="(max-width: 749px)" srcset="{{ block.settings.image-sp | img_url: '700x' }}"> 
+        <img src="{{ block.settings.image | img_url: '1600x' }}">
+      </picture>
+   </div>
+    {%- endfor -%}
+  </div>
+  <!-- If we need pagination -->
+  <div class="swiper-pagination"></div>
+
+  <!-- If we need navigation buttons -->
+  <div class="swiper-button-prev"></div>
+  <div class="swiper-button-next"></div>
+
+  <!-- If we need scrollbar -->
+  <div class="swiper-scrollbar"></div>
+</div>
+
+{% schema %}
+{
+    "name": "スライドショー Swiper",
+  "class": "slider index-section--flush index-section--slideshow-swiper",
+  "max_blocks": 6,
+  "blocks": [
+    {
+      "type": "image",
+      "name": "画像スライド",
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "image",
+          "label": "パソコン画像"
+        },
+        {
+          "type": "image_picker",
+          "id": "image-sp",
+          "label": "スマホ画像"
+        }
+      ]
+    }
+  ],
+	"presets": [
+    {
+      "name": "スライドショー Swiper",
+      "category": "画像"
+    }
+  ]
+}
+{% endschema %}
+
+{% stylesheet %}
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}

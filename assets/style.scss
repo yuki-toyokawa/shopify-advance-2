@@ -1,0 +1,104 @@
+// 下層ページSassのimport
+@use "./setting"as *;
+
+.header {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.header__heading-logo-wrapper {
+  img {
+    width: 180px;
+
+    @include mq("sp") {
+      width: 140px;
+    }
+  }
+}
+
+.header__inline-menu {
+  width: 500px;
+}
+
+img {
+  width: 100%;
+}
+
+.inner {
+  width: 1234px;
+  max-width: 100%;
+  margin: auto;
+}
+
+a.button {
+  background-color: $color-main;
+  width: 300px;
+  height: 60px;
+  border-radius: 50px;
+  font-family: $font-family-english;
+  font-size: 18px;
+  font-weight: 500;
+  letter-spacing: .1em;
+  transition: .3s;
+
+  @include mq("sp") {
+    width: 250px;
+    height: 50px;
+    font-size: 16px;
+  }
+
+  &::after {
+    box-shadow: none;
+  }
+
+  &:hover {
+    opacity: .7;
+  }
+
+  &:hover:after {
+    box-shadow: none !important;
+  }
+}
+
+.collection {
+  a.button {
+    margin-top: 40px !important;
+  }
+}
+
+.product {
+  .product__title {
+    h1 {
+      font-size: 32px;
+    }
+  }
+}
+
+footer {
+  &.footer {
+    padding-bottom: 30px;
+    margin-top: 100px;
+
+    @include mq("sp") {
+      margin-top: 60px;
+    }
+  }
+
+  .footer__content-top {
+    padding-bottom: 20px;
+  }
+
+  .footer__content-bottom {
+    padding-top: 0;
+  }
+
+  .footer__content-bottom-wrapper {
+    justify-content: center;
+  }
+}
+
+.article-card-wrapper {
+  .card__inner {
+    height: 100%;
+  }
+}

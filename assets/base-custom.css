@@ -1,0 +1,39 @@
+.text-body {
+  font-family: 'Kosugi Maru', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+.h0,
+.h1,
+.h2,
+.h3,
+.h4,
+.h5 {
+  font-family: 'Kosugi Maru', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+}
+
+h4,
+.h4 {
+  font-family: 'Kosugi Maru', sans-serif;
+  font-style: normal;
+}
+
+.select__select {
+  font-family: 'Kosugi Maru', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.text-area {
+  font-family: 'Kosugi Maru', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+}

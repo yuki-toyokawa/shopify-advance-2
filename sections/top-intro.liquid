@@ -1,0 +1,66 @@
+{{ 'style.css' | asset_url | stylesheet_tag }}
+{{ 'top-page.css' | asset_url | stylesheet_tag }}
+
+<div class="top-intro">
+  <div class="inner">
+    <div class="top-intro__wrap">
+      <div class="top-intro__left">
+        <div class="top-intro__img bgextend bgLRextendTrigger">
+          {%- if section.settings.top-intro_image01 != blank -%}
+            <img class="bgappearTrigger" src="{{ section.settings.top-intro_image01 | img_url: 'master' }}" alt="{{ section.settings.top-intro_image01.alt }}">
+          {%- else -%}
+            {{ 'detailed-apparel-1' | placeholder_svg_tag: 'placeholder-svg' }}
+          {%- endif -%}
+        </div>
+      </div>
+      <div class="top-intro__right">
+        <div class="top-intro__box">
+          <div class="top-intro__title">{{ section.settings.top-intro_title }}</div>
+          <p class="top-intro__text">{{ section.settings.top-intro_text }}</p>
+        </div>
+        <div class="top-intro__img bgextend bgLRextendTrigger">
+          {%- if section.settings.top-intro_image02 != blank -%}
+            <img class="bgappearTrigger" src="{{ section.settings.top-intro_image02 | img_url: 'master' }}" alt="{{ section.settings.top-intro_image02.alt }}">
+          {%- else -%}
+            {{ 'detailed-apparel-1' | placeholder_svg_tag: 'placeholder-svg' }}
+          {%- endif -%}
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+{% schema %}
+  {
+    "name": "トップイントロ",
+    "settings": [
+      {
+        "type": "image_picker",
+        "id": "top-intro_image01",
+        "label": "画像を選ぶ",
+        "info": "左側の画像"
+      }, {
+        "type": "text",
+        "id": "top-intro_title",
+        "label": "タイトルを入力",
+        "default": "タイトルを入力"
+      }, {
+        "type": "richtext",
+        "id": "top-intro_text",
+        "label": "テキストを入力",
+        "default": "<p>テキストを入力</p>"
+      }, {
+        "type": "image_picker",
+        "id": "top-intro_image02",
+        "label": "画像を選ぶ",
+        "info": "右下の画像"
+      }
+    ],
+
+    "presets": [
+      {
+        "name": "トップイントロ"
+      }
+    ]
+  }
+{% endschema %}

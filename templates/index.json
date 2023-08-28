@@ -1,0 +1,246 @@
+{
+  "sections": {
+    "3bd2b841-c091-4e17-998f-f5ace3489696": {
+      "type": "slideshow-swiper",
+      "blocks": {
+        "a2d3c878-35dc-4a4c-b52d-7fce88f79d5a": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/mainvisual01.jpg",
+            "image-sp": "shopify:\/\/shop_images\/mainvisual01-sp.jpg"
+          }
+        },
+        "72ee445e-f23a-469b-b1e5-db04fd87bc25": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/mainvisual02.jpg",
+            "image-sp": "shopify:\/\/shop_images\/mainvisual02-sp.jpg"
+          }
+        },
+        "e4e34936-134b-49ba-8e5a-acc6713d6cf4": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/mainvisual03.jpg",
+            "image-sp": "shopify:\/\/shop_images\/mainvisual03-sp.jpg"
+          }
+        }
+      },
+      "block_order": [
+        "a2d3c878-35dc-4a4c-b52d-7fce88f79d5a",
+        "72ee445e-f23a-469b-b1e5-db04fd87bc25",
+        "e4e34936-134b-49ba-8e5a-acc6713d6cf4"
+      ],
+      "settings": {
+      }
+    },
+    "image_banner": {
+      "type": "image-banner",
+      "disabled": true,
+      "settings": {
+        "image": "shopify:\/\/shop_images\/mainvisual01.jpg",
+        "image_overlay_opacity": 40,
+        "image_height": "large",
+        "desktop_content_position": "bottom-center",
+        "show_text_box": false,
+        "desktop_content_alignment": "center",
+        "color_scheme": "inverse",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": false,
+        "show_text_below": false
+      }
+    },
+    "6820880a-41be-4d69-a1b5-b92f1687d1ff": {
+      "type": "top-intro",
+      "settings": {
+        "top-intro_image01": "shopify:\/\/shop_images\/intro01.jpg",
+        "top-intro_title": "CASANOVA COFFEE",
+        "top-intro_text": "<p>我々CASANOVA COFFEEは、2022年に美味しいコーヒーを飲んでいただくために、創業しました。<br\/><br\/>コーヒー豆はすべて店の中で焙煎を行なっております。<br\/><br\/>これからも初心を忘れず邁進していく次第です。<\/p>",
+        "top-intro_image02": "shopify:\/\/shop_images\/intro02.jpg"
+      }
+    },
+    "featured_collection": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "焙煎コーヒー豆",
+        "heading_size": "h2",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "コーヒー豆",
+        "products_to_show": 8,
+        "columns_desktop": 4,
+        "full_width": false,
+        "show_view_all": true,
+        "view_all_style": "solid",
+        "enable_desktop_slider": false,
+        "color_scheme": "background-1",
+        "image_ratio": "adapt",
+        "image_shape": "default",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_quick_add": false,
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 44,
+        "padding_bottom": 36
+      }
+    },
+    "2cf40258-1b73-43e4-a0bc-5aa4e215cf1e": {
+      "type": "collection-list",
+      "blocks": {
+        "template--20265727525175__2cf40258-1b73-43e4-a0bc-5aa4e215cf1e-featured_collection-1": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "深煎り"
+          }
+        },
+        "template--20265727525175__2cf40258-1b73-43e4-a0bc-5aa4e215cf1e-featured_collection-2": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "浅煎り"
+          }
+        },
+        "template--20265727525175__2cf40258-1b73-43e4-a0bc-5aa4e215cf1e-featured_collection-3": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "関連商品"
+          }
+        }
+      },
+      "block_order": [
+        "template--20265727525175__2cf40258-1b73-43e4-a0bc-5aa4e215cf1e-featured_collection-1",
+        "template--20265727525175__2cf40258-1b73-43e4-a0bc-5aa4e215cf1e-featured_collection-2",
+        "template--20265727525175__2cf40258-1b73-43e4-a0bc-5aa4e215cf1e-featured_collection-3"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "image_ratio": "square",
+        "columns_desktop": 3,
+        "color_scheme": "",
+        "show_view_all": false,
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "0aab4ed0-ddcf-42a4-824b-3d541fa148e6": {
+      "type": "top-feature",
+      "blocks": {
+        "template--20265727525175__0aab4ed0-ddcf-42a4-824b-3d541fa148e6-feature-item-1": {
+          "type": "feature-item",
+          "settings": {
+            "top-feature_image": "shopify:\/\/shop_images\/feature01.jpg",
+            "top-feature_text": "<p>当店ではコーヒー豆の品質を最大限に引き出すために、焙煎機にもこだわっています。焙煎機は最新の技術を駆使し、温度と時間をコントロールすることで、豆の風味や香りを最適化しています。<\/p>"
+          }
+        },
+        "template--20265727525175__0aab4ed0-ddcf-42a4-824b-3d541fa148e6-feature-item-2": {
+          "type": "feature-item",
+          "settings": {
+            "top-feature_image": "shopify:\/\/shop_images\/feature02.jpg",
+            "top-feature_text": "<p>当店では、コーヒー豆に対するこだわりを持っています。品質の高い豆を厳選し、持続可能な栽培方法で育てられたものにこだわり、直接生産者との関係を築くことを大切にしています。<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--20265727525175__0aab4ed0-ddcf-42a4-824b-3d541fa148e6-feature-item-1",
+        "template--20265727525175__0aab4ed0-ddcf-42a4-824b-3d541fa148e6-feature-item-2"
+      ],
+      "settings": {
+      }
+    },
+    "1b81a4ae-1377-4c08-a2dd-b5ca5a7818ec": {
+      "type": "rich-text",
+      "blocks": {
+        "template--20265727525175__1b81a4ae-1377-4c08-a2dd-b5ca5a7818ec-button-1": {
+          "type": "button",
+          "settings": {
+            "button_label": "More",
+            "button_link": "shopify:\/\/pages\/feature",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "template--20265727525175__1b81a4ae-1377-4c08-a2dd-b5ca5a7818ec-button-1"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "4c7ef6be-4142-4eb6-b74a-4761d81ad871": {
+      "type": "image-banner",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/image.jpg",
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "c9f99008-a2a7-4ec5-ad01-f5006961c58b": {
+      "type": "news",
+      "settings": {
+        "title": "お知らせ",
+        "news_blog": "news"
+      }
+    },
+    "6b28d2d5-59f7-49d6-bafc-4de31ba0c126": {
+      "type": "shop-map",
+      "settings": {
+      }
+    },
+    "df72e838-f4a0-404c-88fd-e0c295a5be9b": {
+      "type": "rich-text",
+      "blocks": {
+        "template--20340430635319__df72e838-f4a0-404c-88fd-e0c295a5be9b-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>CASANOVA COFFEE<\/strong><br\/>所在地：東京都渋谷区神宮前1-2-3<br\/>TEL: 03-1234-5678<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--20340430635319__df72e838-f4a0-404c-88fd-e0c295a5be9b-text-1"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    }
+  },
+  "order": [
+    "3bd2b841-c091-4e17-998f-f5ace3489696",
+    "image_banner",
+    "6820880a-41be-4d69-a1b5-b92f1687d1ff",
+    "featured_collection",
+    "2cf40258-1b73-43e4-a0bc-5aa4e215cf1e",
+    "0aab4ed0-ddcf-42a4-824b-3d541fa148e6",
+    "1b81a4ae-1377-4c08-a2dd-b5ca5a7818ec",
+    "4c7ef6be-4142-4eb6-b74a-4761d81ad871",
+    "c9f99008-a2a7-4ec5-ad01-f5006961c58b",
+    "6b28d2d5-59f7-49d6-bafc-4de31ba0c126",
+    "df72e838-f4a0-404c-88fd-e0c295a5be9b"
+  ]
+}

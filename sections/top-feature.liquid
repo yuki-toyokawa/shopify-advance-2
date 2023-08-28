@@ -1,0 +1,67 @@
+{{ 'style.css' | asset_url | stylesheet_tag }}
+{{ 'top-page.css' | asset_url | stylesheet_tag }}
+
+<div class="top-feature">
+  <div class="inner">
+    <div class="top-feature__items">
+      {% for block in section.blocks %}
+        {% case block.type %}
+          {% when 'feature-item' %}
+          <div class="top-feature__item">
+
+            <div class="top-feature__img bgextend bgLRextendTrigger">
+              <div class="img__wrap bgappearTrigger">
+                {%- if block.settings.top-feature_image != blank -%}
+                  <img src="{{ block.settings.top-feature_image | img_url: 'master' }}" alt="{{ block.settings.top-feature_image.alt }}">
+                {%- else -%}
+                  {{ 'detailed-apparel-1' | placeholder_svg_tag: 'placeholder-svg' }}
+                {%- endif -%}
+              </div>
+            </div>
+            <div class="top-feature__text">{{ block.settings.top-feature_text }}</div>
+          </div>
+        {% endcase %}
+      {% endfor %}
+    </div>
+  </div>
+</div>
+
+
+
+{% schema %}
+  {
+    "name": "トップこだわり",
+    "blocks": [
+      {
+        "type": "feature-item",
+        "name": "こだわりブロック",
+        "settings": [
+          {
+            "type": "image_picker",
+            "id": "top-feature_image",
+            "label": "画像を選ぶ",
+            "info": "画像の設定"
+          }, {
+            "type": "richtext",
+            "id": "top-feature_text",
+            "label": "テキストを入力",
+            "default": "<p>テキストを入力</p>"
+          }
+        ]
+      }
+    ],
+    "presets": [
+      {
+        "name": "トップこだわり",
+        "blocks": [
+          {
+            "type": "feature-item"
+          },
+          {
+            "type": "feature-item"
+          }
+        ]
+      }
+    ]
+  }
+{% endschema %}
