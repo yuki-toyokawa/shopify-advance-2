@@ -384,6 +384,53 @@
         "padding_top": 40,
         "padding_bottom": 52
       }
+    },
+    "6cf231b3-4f99-4f7a-9afa-471dc718a382": {
+      "type": "image-banner",
+      "blocks": {
+        "template--20828964684087__6cf231b3-4f99-4f7a-9afa-471dc718a382-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "タイトルが入ります。",
+            "heading_size": "h1"
+          }
+        },
+        "template--20828964684087__6cf231b3-4f99-4f7a-9afa-471dc718a382-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。",
+            "text_style": "body"
+          }
+        },
+        "template--20828964684087__6cf231b3-4f99-4f7a-9afa-471dc718a382-buttons-1": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "ショッピングページへ",
+            "button_link_1": "shopify:\/\/collections",
+            "button_style_secondary_1": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "template--20828964684087__6cf231b3-4f99-4f7a-9afa-471dc718a382-heading-1",
+        "template--20828964684087__6cf231b3-4f99-4f7a-9afa-471dc718a382-text-1",
+        "template--20828964684087__6cf231b3-4f99-4f7a-9afa-471dc718a382-buttons-1"
+      ],
+      "settings": {
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "desktop_content_position": "middle-center",
+        "show_text_box": false,
+        "desktop_content_alignment": "center",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
     }
   },
   "order": [
@@ -400,6 +447,7 @@
     "df72e838-f4a0-404c-88fd-e0c295a5be9b",
     "44c7a9c8-9363-41f4-a94f-22bb45b5f85c",
     "b75a6f1c-7f7e-4477-87d0-d6165678a93d",
-    "19571e9c-371f-4178-a40f-6c3085cf2633"
+    "19571e9c-371f-4178-a40f-6c3085cf2633",
+    "6cf231b3-4f99-4f7a-9afa-471dc718a382"
   ]
 }
