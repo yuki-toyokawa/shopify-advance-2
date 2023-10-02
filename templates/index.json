@@ -295,6 +295,53 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "b75a6f1c-7f7e-4477-87d0-d6165678a93d": {
+      "type": "image-banner",
+      "blocks": {
+        "template--20828964684087__b75a6f1c-7f7e-4477-87d0-d6165678a93d-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "",
+            "heading_size": "h1"
+          }
+        },
+        "template--20828964684087__b75a6f1c-7f7e-4477-87d0-d6165678a93d-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "",
+            "text_style": "body"
+          }
+        },
+        "template--20828964684087__b75a6f1c-7f7e-4477-87d0-d6165678a93d-buttons-1": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "ショッピングページへ",
+            "button_link_1": "shopify:\/\/collections",
+            "button_style_secondary_1": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "template--20828964684087__b75a6f1c-7f7e-4477-87d0-d6165678a93d-heading-1",
+        "template--20828964684087__b75a6f1c-7f7e-4477-87d0-d6165678a93d-text-1",
+        "template--20828964684087__b75a6f1c-7f7e-4477-87d0-d6165678a93d-buttons-1"
+      ],
+      "settings": {
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "desktop_content_position": "middle-center",
+        "show_text_box": false,
+        "desktop_content_alignment": "center",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
     }
   },
   "order": [
@@ -309,6 +356,7 @@
     "c9f99008-a2a7-4ec5-ad01-f5006961c58b",
     "6b28d2d5-59f7-49d6-bafc-4de31ba0c126",
     "df72e838-f4a0-404c-88fd-e0c295a5be9b",
-    "44c7a9c8-9363-41f4-a94f-22bb45b5f85c"
+    "44c7a9c8-9363-41f4-a94f-22bb45b5f85c",
+    "b75a6f1c-7f7e-4477-87d0-d6165678a93d"
   ]
 }
