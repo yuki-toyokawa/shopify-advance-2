@@ -235,10 +235,11 @@
         "template--20828964684087__44c7a9c8-9363-41f4-a94f-22bb45b5f85c-column-1": {
           "type": "column",
           "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "link_label": "",
-            "link": ""
+            "image": "shopify:\/\/shop_images\/mainvisual02.jpg",
+            "title": "",
+            "text": "",
+            "link_label": "yahoo",
+            "link": "https:\/\/www.yahoo.co.jp\/"
           }
         },
         "template--20828964684087__44c7a9c8-9363-41f4-a94f-22bb45b5f85c-column-2": {
