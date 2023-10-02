@@ -362,8 +362,8 @@
         "template--20828964684087__19571e9c-371f-4178-a40f-6c3085cf2633-button-1": {
           "type": "button",
           "settings": {
-            "button_label": "Button label",
-            "button_link": "",
+            "button_label": "ショッピングページへ",
+            "button_link": "shopify:\/\/collections",
             "button_style_secondary": false,
             "button_label_2": "",
             "button_link_2": "",
